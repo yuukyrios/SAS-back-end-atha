@@ -2,7 +2,7 @@ POST http://localhost:6000/products
 Content-Type: application/json
 
 {
-    "nameProduct":"Nasi Pecel",
+    "nameProduct":"nasi padang",
     "categories":"Makanan",
     "madeIn":"Madiun"
 }
@@ -16,3 +16,6 @@ Content-Type: application/json
 {
     "madeIn":"Semarang"
 }
+
+###
+GET http://localhost:6000/products/

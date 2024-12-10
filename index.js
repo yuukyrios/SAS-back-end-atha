@@ -8,7 +8,7 @@ const app = express();
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
-mongoose.connect("mongodb://localhost:27017/restful_db", {
+mongoose.connect("mongodb+srv://admin:1234@cluster0.llybf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
